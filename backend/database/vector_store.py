@@ -38,4 +38,16 @@ def create_vector_store():
     return SimpleVectorStore(texts)
 
 
+def get_food_list():
+    """Return a list of food names found in the dataset."""
+
+    foods = []
+    for entry in _load_dataset("data/food_dataset.txt"):
+        for line in entry.splitlines():
+            if line.lower().startswith("food:"):
+                foods.append(line.split(":", 1)[1].strip())
+                break
+    return foods
+
+
 vector_db = create_vector_store()
