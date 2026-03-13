@@ -1,4 +1,6 @@
-from backend.database.vector_store import vector_db
+from backend.database.vector_store import create_vector_store
+
+vector_db = create_vector_store()
 
 
 def food_agent(query):

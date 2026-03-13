@@ -1,28 +1,25 @@
 ﻿from typing import List, Tuple
+import numpy as np
+import faiss
+import pickle
+from sentence_transformers import SentenceTransformer
 
 
-class SimpleVectorStore:
-    """A lightweight keyword-based retrieval store.
+class FAISSVectorStore:
+    """A vector store using precomputed FAISS index for semantic retrieval."""
 
-    This avoids downloading large embedding models, so it works quickly
-    on Streamlit Community Cloud.
-    """
-
-    def __init__(self, texts: List[str]):
-        self.texts = texts
+    def __init__(self, index_path: str, texts_path: str):
+        self.index = faiss.read_index(index_path)
+        with open(texts_path, "rb") as f:
+            self.texts = pickle.load(f)
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
 
     def similarity_search(self, query: str, k: int = 3) -> List[Tuple[str, float]]:
-        # Score each document by how many query words it contains.
-        query_tokens = [t.lower() for t in query.split() if t.strip()]
-        scores = []
-
-        for doc in self.texts:
-            doc_lower = doc.lower()
-            score = sum(1 for t in query_tokens if t in doc_lower)
-            scores.append((doc, score))
-
-        scores.sort(key=lambda x: x[1], reverse=True)
-        return [(doc, float(score)) for doc, score in scores[:k]]
+        query_embedding = self.model.encode([query], convert_to_numpy=True)
+        faiss.normalize_L2(query_embedding)
+        scores, indices = self.index.search(query_embedding, k)
+        results = [(self.texts[idx], float(score)) for idx, score in zip(indices[0], scores[0])]
+        return results
 
 
 def _load_dataset(path: str) -> List[str]:
@@ -34,8 +31,7 @@ def _load_dataset(path: str) -> List[str]:
 
 
 def create_vector_store():
-    texts = _load_dataset("data/food_dataset.txt")
-    return SimpleVectorStore(texts)
+    return FAISSVectorStore("data/faiss_index.idx", "data/texts.pkl")
 
 
 def get_food_list():

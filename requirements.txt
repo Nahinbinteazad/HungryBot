@@ -2,3 +2,5 @@ streamlit
 duckduckgo-search
 pytesseract
 pillow
+faiss-cpu
+sentence-transformers
