@@ -1,0 +1,15 @@
+Food: Mezban Beef
+City: Chattogram
+Description: A traditional spicy beef curry served at Mezban feasts.
+
+Food: Kacchi Biryani
+City: Dhaka
+Description: A fragrant rice dish cooked with marinated meat and spices.
+
+Food: Seven Layer Tea
+City: Sylhet
+Description: A colorful layered tea drink popular in Sylhet.
+
+Food: Grilled Lobster
+City: Cox's Bazar
+Description: Fresh seafood grilled near the beach.

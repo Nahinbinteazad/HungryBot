@@ -1,0 +1,10 @@
+streamlit
+langchain
+langsmith
+faiss-cpu
+sentence-transformers
+duckduckgo-search
+pytesseract
+pillow
+transformers
+torch
