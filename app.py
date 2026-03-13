@@ -10,12 +10,14 @@ st.set_page_config(page_title="HungryBot", page_icon="🍜")
 
 st.title("🍜 HungryBot - Bangladesh Food Guide")
 
-query = st.text_input("Ask HungryBot about food")
+with st.form(key="query_form"):
+    query = st.text_input("Ask HungryBot about food")
+    image = st.file_uploader("Upload menu image", type=["png","jpg","jpeg"])
+    submit = st.form_submit_button("Ask")
 
-image = st.file_uploader("Upload menu image", type=["png","jpg","jpeg"])
-
-if st.button("Ask"):
-
-    response = route_query(query, image)
-
-    st.write(response)
+if submit:
+    if not query and image is None:
+        st.warning("Please enter a question or upload a menu image.")
+    else:
+        response = route_query(query, image)
+        st.write(response)
