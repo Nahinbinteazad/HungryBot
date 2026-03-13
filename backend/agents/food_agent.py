@@ -7,7 +7,7 @@ def food_agent(query):
 
     response = ""
 
-    for d in docs:
-        response += d.page_content + "\n"
+    for doc_text, distance in docs:
+        response += f"{doc_text}\n\n"
 
     return response
