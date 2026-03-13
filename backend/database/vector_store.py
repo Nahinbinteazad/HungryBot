@@ -1,40 +1,40 @@
-﻿import faiss
-from sentence_transformers import SentenceTransformer
-from typing import List, Tuple
+﻿from typing import List, Tuple
 
 
 class SimpleVectorStore:
+    """A lightweight keyword-based retrieval store.
+
+    This avoids downloading large embedding models, so it works quickly
+    on Streamlit Community Cloud.
+    """
+
     def __init__(self, texts: List[str]):
         self.texts = texts
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-
-        vectors = self.model.encode(self.texts, convert_to_numpy=True)
-        self.dimension = vectors.shape[1]
-        self.index = faiss.IndexFlatL2(self.dimension)
-        self.index.add(vectors)
 
     def similarity_search(self, query: str, k: int = 3) -> List[Tuple[str, float]]:
-        query_vec = self.model.encode([query], convert_to_numpy=True)
-        distances, indices = self.index.search(query_vec, k)
+        # Score each document by how many query words it contains.
+        query_tokens = [t.lower() for t in query.split() if t.strip()]
+        scores = []
 
-        results = []
-        for dist, idx in zip(distances[0], indices[0]):
-            if idx < 0 or idx >= len(self.texts):
-                continue
-            results.append((self.texts[idx], float(dist)))
-        return results
+        for doc in self.texts:
+            doc_lower = doc.lower()
+            score = sum(1 for t in query_tokens if t in doc_lower)
+            scores.append((doc, score))
+
+        scores.sort(key=lambda x: x[1], reverse=True)
+        return [(doc, float(score)) for doc, score in scores[:k]]
 
 
 def _load_dataset(path: str) -> List[str]:
-    with open(path, 'r', encoding='utf-8') as f:
+    with open(path, "r", encoding="utf-8") as f:
         raw = f.read().strip()
 
-    entries = [entry.strip() for entry in raw.split('\n\n') if entry.strip()]
+    entries = [entry.strip() for entry in raw.split("\n\n") if entry.strip()]
     return entries
 
 
 def create_vector_store():
-    texts = _load_dataset('data/food_dataset.txt')
+    texts = _load_dataset("data/food_dataset.txt")
     return SimpleVectorStore(texts)
 
 
