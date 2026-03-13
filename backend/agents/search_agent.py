@@ -31,5 +31,14 @@ def search_agent(query):
             )
             return "\n".join(response)
 
+    # If this looks like a location/restaurants query, try a generic map search.
+    if any(kw in q for kw in ["where", "restaurant", "location", "located"]):
+        maps_link = "https://www.google.com/maps/search/" + urllib.parse.quote_plus(q)
+        return (
+            "I couldn't find a specific place in my local knowledge, but you can try this map search:\n"
+            f"{maps_link}\n\n"
+            "You can also refine your question with a specific food name (e.g., 'Where can I eat Kacchi Biryani?')."
+        )
+
     # Fallback to web search when no built-in answer is available
     return search_restaurants(query)
