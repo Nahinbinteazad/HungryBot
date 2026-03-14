@@ -19,8 +19,8 @@ def route_query(query, image=None):
             return "I don't know any foods yet."
         return "I know about these Bangladeshi foods:\n" + "\n".join(f"- {f}" for f in foods)
 
-    # If asking about restaurants
-    if "restaurant" in query_lower or "where" in query_lower:
+    # If asking about restaurants or city-specific famous foods
+    if "restaurant" in query_lower or "where" in query_lower or any(city in query_lower for city in ["dhaka", "chattogram", "sylhet", "cox", "cox's bazar"]):
         return search_agent(query)
 
     # Otherwise use food knowledge

@@ -2,13 +2,48 @@ import urllib.parse
 
 from backend.agents.food_agent import food_agent
 from backend.tools.search_tool import search_restaurants
-from backend.database.vector_store import get_food_list
+from backend.database.vector_store import get_food_list, get_city_foods
+
+
+def _format_city_food_suggestions(city, records):
+    in_city = [rec for rec in records if rec.get('city', '').strip()]
+    if not in_city:
+        return None
+
+    lines = [f"Top {len(in_city)} specialties for {city.title()}:\n"]
+    for rec in in_city:
+        food = rec.get('food', 'Unknown food')
+        place = rec.get('place', 'Local eateries')
+        typ = rec.get('type', 'restaurant')
+        desc = rec.get('description', '')
+
+        lines.append(f"- {food} ({typ})\n  Where: {place}\n  Info: {desc}\n")
+    return "\n".join(lines)
 
 
 def search_agent(query):
     """Return chat-style responses for location/restaurant queries."""
 
     q = query.lower().strip()
+
+    # If the user asks a city-specific query, suggest city best dishes/grocery
+    city_keywords = {
+        'dhaka': 'Dhaka',
+        'chattogram': 'Chattogram',
+        'chittagong': 'Chattogram',
+        'sylhet': 'Sylhet',
+        "cox's bazar": "Cox's Bazar",
+        'cox bazar': 'Cox\'s Bazar'
+    }
+    for token, city_name in city_keywords.items():
+        if token in q and any(w in q for w in ['where', 'famous', 'best', 'special', 'recommend', 'grocery', 'buy']):
+            city_records = get_city_foods(city_name)
+            city_response = _format_city_food_suggestions(city_name, city_records)
+            if city_response:
+                maps_link = "https://www.google.com/maps/search/" + urllib.parse.quote_plus(f"{city_name} food")
+                city_response += f"\nFind these places on maps: {maps_link}\n"
+                city_response += "\nTip: include the food name + city on Google Maps, e.g., 'Kacchi Biryani Dhaka'."
+                return city_response
 
     # If the user asks what the bot knows, list all foods in the dataset
     if any(phrase in q for phrase in ["what do you know", "what can you do", "what foods"]):
