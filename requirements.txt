@@ -1,6 +1,11 @@
 streamlit
+langchain
+langsmith
 duckduckgo-search
-pytesseract
 pillow
+pytesseract
 faiss-cpu
 sentence-transformers
+transformers
+torch
+numpy
