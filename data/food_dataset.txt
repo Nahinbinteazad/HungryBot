@@ -3,153 +3,1485 @@ City: Dhaka
 Place: Old Dhaka Kacchi House (Azimpur)
 Type: restaurant
 Description: Fragrant basmati rice cooked with marinated mutton and spices. Famous in Old Dhaka.
+Rating: 4.5
+Tags: biryani, dhaka, restaurant
 
 Food: Tehari
 City: Dhaka
 Place: New Market Tehari Stall
 Type: restaurant
 Description: Spicy rice dish cooked with beef and aromatic spices.
+Rating: 4.5
+Tags: dhaka, restaurant
 
 Food: Fuchka
 City: Dhaka
 Place: Baily Road Fuchka Corner
 Type: street food
 Description: Street snack filled with chickpeas, tamarind water, and spices.
+Rating: 4.4
+Tags: dhaka, street food
 
 Food: Morog Polao
 City: Dhaka
 Place: Nanna Biryani House (Dhanmondi)
 Type: restaurant
 Description: Chicken cooked with rice and aromatic spices.
+Rating: 4.5
+Tags: dhaka, restaurant
 
 Food: Bhuna Khichuri
 City: Dhaka
 Place: Syed Mess (Old Dhaka)
 Type: restaurant
 Description: Spiced rice and lentils with beef, a winter classic.
+Rating: 4.5
+Tags: dhaka, restaurant
 
 Food: Sharbet
 City: Dhaka
 Place: Panshi Sharbat (South City)
 Type: beverage
 Description: Sweet fruit drinks commonly served in summer.
+Rating: 4.2
+Tags: beverage, dhaka
 
 Food: Chotpoti
 City: Dhaka
 Place: Elephant Road Chotpoti Stall
 Type: street food
 Description: Popular spicy savory snack with chickpeas, potato, and tamarind.
+Rating: 4.4
+Tags: dhaka, street food
 
 Food: Halim
 City: Dhaka
 Place: Best Haji Halim (Karwan Bazar)
 Type: restaurant
 Description: Slow-cooked wheat and meat stew.
+Rating: 4.5
+Tags: dhaka, restaurant
 
 Food: Shorshe Ilish
 City: Dhaka
 Place: Palaspau (Farmgate)
 Type: restaurant
 Description: Hilsa fish in mustard gravy, a Bengali favorite.
+Rating: 4.5
+Tags: dhaka, restaurant
 
 Food: Mezban Beef
 City: Chattogram
 Place: Halishahar Mezban House
 Type: restaurant
 Description: Famous spicy beef curry served during Mezban community feasts.
+Rating: 4.5
+Tags: chattogram, restaurant
 
 Food: Kala Bhuna
 City: Chattogram
 Place: Chattogram Biryani House
 Type: restaurant
 Description: Rich roasted beef curry cooked with dark spices.
+Rating: 4.5
+Tags: chattogram, restaurant
 
 Food: Shutki Bhorta
 City: Chattogram
 Place: Chattogram Fish Market (available)
 Type: grocery
 Description: Mashed dried fish mixed with mustard oil and chili.
+Rating: 4.0
+Tags: chattogram, grocery
 
 Food: Chittagong Biriyani
 City: Chattogram
 Place: Ambagan Biriyani
 Type: restaurant
 Description: Special Chattogram-style biriyani with poultry and aromatic spices.
+Rating: 4.5
+Tags: chattogram, restaurant
 
 Food: Mitha Pitha
 City: Chattogram
 Place: Saltgura Pitha Point
 Type: snack
 Description: Sweet rice cakes typical in Chattogram.
+Rating: 4.1
+Tags: chattogram, pitha, snack
 
 Food: Ranna Gurer Payesh
 City: Chattogram
 Place: Keating Bazar Sweets
 Type: dessert
 Description: Jaggery rice pudding, a local favorite.
+Rating: 4.3
+Tags: chattogram, dessert
 
 Food: Seven Layer Tea
 City: Sylhet
 Place: Sylhet Tea Street
 Type: restaurant
 Description: Multicolored tea with seven distinct layers.
+Rating: 4.5
+Tags: restaurant, sylhet, tea
 
 Food: Shahi Jorda
 City: Sylhet
 Place: Sylheti Bake House
 Type: dessert
 Description: Sweet bread toasted with butter and milk.
+Rating: 4.3
+Tags: dessert, sylhet
 
 Food: Lal Shak Bhorta
 City: Sylhet
 Place: Sylheti Veg Corner
 Type: restaurant
 Description: Mashed red spinach with spices.
+Rating: 4.5
+Tags: restaurant, sylhet
 
 Food: Doa Pitha
 City: Sylhet
 Place: Nishat Tea Stall
 Type: street food
 Description: Soft rice cake with date palm jaggery.
+Rating: 4.4
+Tags: pitha, street food, sylhet
 
 Food: Bamboo Chicken
 City: Bandarban
 Place: Bandarban Hilltop Bamboo Kitchen
 Type: specialty
 Description: Chicken cooked inside bamboo over fire.
+Rating: 4.6
+Tags: bandarban, specialty
 
 Food: Grilled Lobster
 City: Cox's Bazar
 Place: Cox's Bazar Beachfront Restaurants
 Type: restaurant
 Description: Fresh lobster grilled near the beach.
+Rating: 4.5
+Tags: cox's bazar, restaurant
 
 Food: Coral Fish Curry
 City: Cox's Bazar
 Place: Local Cox's Bazar Seafood Joint
 Type: restaurant
 Description: Spicy curry made from fresh coral fish.
+Rating: 4.5
+Tags: cox's bazar, fish, restaurant
 
 Food: Prawn Malaikari
 City: Cox's Bazar
 Place: Laboni Beach Seafood Point
 Type: seafood
 Description: Prawns in coconut and spice curry.
+Rating: 4.5
+Tags: cox's bazar, seafood
 
 Food: Mixed Sea Fish Thali
 City: Cox's Bazar
 Place: Cox's Bazar Fish Market Food Court
 Type: restaurant
 Description: Assorted local fish cooked in regional style.
+Rating: 4.5
+Tags: cox's bazar, fish, restaurant
 
 Food: Dry Fish Fry
 City: Cox's Bazar
 Place: Cox's Bazar Fish Market (grocery)
 Type: grocery
 Description: Dried fish product used in local cooking.
+Rating: 4.0
+Tags: cox's bazar, fish, grocery
 
 Food: Lyangcha
 City: Dhaka
 Place: Rosemis Sweets
 Type: dessert
 Description: Syrupy deep-fried dumplings in sweet syrup.
+Rating: 4.3
+Tags: dessert, dhaka
+
+Food: Dhaka Fish Market Spices
+City: Dhaka
+Place: New Market Masala Bazaar
+Type: grocery
+Description: Blend of whole spices for biryani, bhuna, and traditional Dhaka curries.
+Rating: 4.0
+Tags: dhaka, fish, grocery, spice
+
+Food: Sylhet Tezpata Leaf
+City: Sylhet
+Place: Sylhet Tea Street Market
+Type: grocery
+Description: Fresh tejpat leaf used in Sylheti cooking and tea.
+Rating: 4.0
+Tags: grocery, sylhet
+
+Food: Chattogram Fresh Shutki
+City: Chattogram
+Place: Chattogram Fish Market (grocery)
+Type: grocery
+Description: Dried fish sold in bulk for local households.
+Rating: 4.0
+Tags: chattogram, grocery
+
+Food: Khichuri (Chattogram)
+City: Chattogram
+Place: Mehedi Mess
+Type: restaurant
+Description: Special Chattogram style khichuri with beef and potato.
+Rating: 4.4
+Tags: chattogram, restaurant, khichuri
+
+Food: Kala Bhuna Niramish
+City: Chattogram
+Place: Hot & Spicy, Chattogram
+Type: restaurant
+Description: Vegetable version of kala bhuna topped with green chilies.
+Rating: 4.3
+Tags: chattogram, restaurant, vegetarian
+
+Food: Chicken Ghee Roast
+City: Dhaka
+Place: Star Hotel (Old Dhaka)
+Type: restaurant
+Description: Deep-fried chicken with aromatic ghee-based sauce.
+Rating: 4.6
+Tags: dhaka, restaurant, chicken
+
+Food: Doi Chira
+City: Dhaka
+Place: Shyamoli Sweets
+Type: dessert
+Description: Flattened rice soaked in curd and jaggery.
+Rating: 4.3
+Tags: dhaka, dessert
+
+Food: Noon Masala Biryani
+City: Cox's Bazar
+Place: Hotel Sea Beach
+Type: restaurant
+Description: Hyderabadi-influenced biryani with beef specially spiced.
+Rating: 4.4
+Tags: cox's bazar, biryani, restaurant
+
+Food: Chua Pitha
+City: Sylhet
+Place: Kota Bari Pitha Stall
+Type: street food
+Description: Sticky rice cake with molasses and coconut.
+Rating: 4.4
+Tags: sylhet, street food, pitha
+
+Food: Jorda
+City: Sylhet
+Place: Kazir Tea Stall
+Type: beverage
+Description: Rich milk tea served with toasted bread.
+Rating: 4.2
+Tags: sylhet, drink, tea
+
+Food: Kacchi Biryani
+City: Dhaka
+Place: Old Dhaka Kacchi House
+Type: restaurant
+Description: Mutton biryani with aromatic spices
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Morog Polao
+City: Dhaka
+Place: Nanna Biryani
+Type: restaurant
+Description: Chicken polao cooked with ghee and spices
+Rating: 4.5
+Tags: restaurant, rice, dhaka
+Cuisine: Rice
+Vendor: Dhanmondi
+Budget: mid
+Subdistrict: Dhanmondi
+
+Food: Shorshe Ilish
+City: Dhaka
+Place: Palaspau
+Type: restaurant
+Description: Hilsa fish in mustard gravy
+Rating: 4.5
+Tags: restaurant, seafood, dhaka
+Cuisine: Seafood
+Vendor: Farmgate
+Budget: high
+Subdistrict: Farmgate
+
+Food: Halim
+City: Dhaka
+Place: Best Haji Halim
+Type: restaurant
+Description: Slow-cooked wheat and meat stew
+Rating: 4.5
+Tags: restaurant, meat, dhaka
+Cuisine: Meat
+Vendor: Karwan Bazar
+Budget: low
+Subdistrict: Karwan Bazar
+
+Food: Fuchka
+City: Dhaka
+Place: Baily Road Fuchka
+Type: street food
+Description: Crispy shells with tamarind water
+Rating: 4.5
+Tags: street food, snack, dhaka
+Cuisine: Snack
+Vendor: Baily Road
+Budget: low
+Subdistrict: Baily Road
+
+Food: Chotpoti
+City: Dhaka
+Place: Elephant Road Chotpoti
+Type: street food
+Description: Spicy chickpea potato mix
+Rating: 4.5
+Tags: street food, snack, dhaka
+Cuisine: Snack
+Vendor: Elephant Road
+Budget: low
+Subdistrict: Elephant Road
+
+Food: Panta Ilish
+City: Dhaka
+Place: Mawa Restaurant
+Type: restaurant
+Description: Fermented rice with hilsa fish
+Rating: 4.5
+Tags: restaurant, seafood, dhaka
+Cuisine: Seafood
+Vendor: Gulshan
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Bhuna Khichuri
+City: Dhaka
+Place: Syed Mess
+Type: restaurant
+Description: Beef khichuri popular in winter
+Rating: 4.5
+Tags: restaurant, rice, dhaka
+Cuisine: Rice
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Old Dhaka
+
+Food: Tea Stall Tea
+City: Dhaka
+Place: Sylhet Tea Street
+Type: beverage
+Description: Seven-layer tea with milk
+Rating: 4.3
+Tags: beverage, drink, dhaka
+Cuisine: Drink
+Vendor: Salimullah Ave
+Budget: low
+Subdistrict: Dhanmondi
+
+Food: Luchi Alur Dom
+City: Dhaka
+Place: Luchi Bar
+Type: restaurant
+Description: Fried flatbread with spicy potato curry
+Rating: 4.5
+Tags: restaurant, breakfast, dhaka
+Cuisine: Breakfast
+Vendor: Mohammadpur
+Budget: low
+Subdistrict: Mohammadpur
+
+Food: Mezban Beef
+City: Chattogram
+Place: Halishahar Mezban
+Type: restaurant
+Description: Spicy beef curry from Mezban tradition
+Rating: 4.5
+Tags: restaurant, meat, chattogram
+Cuisine: Meat
+Vendor: Pahartali
+Budget: mid
+Subdistrict: Pahartali
+
+Food: Kala Bhuna
+City: Chattogram
+Place: Chattogram Biryani
+Type: restaurant
+Description: Ghee-roasted beef curry with dark sauce
+Rating: 4.5
+Tags: restaurant, meat, chattogram
+Cuisine: Meat
+Vendor: Halishahar
+Budget: mid
+Subdistrict: Halishahar
+
+Food: Chittagong Biryani
+City: Chattogram
+Place: Ambagan Biriyani
+Type: restaurant
+Description: Chicken biryani with unique spice mix
+Rating: 4.5
+Tags: restaurant, biryani, chattogram
+Cuisine: Biryani
+Vendor: Panchlaish
+Budget: mid
+Subdistrict: Panchlaish
+
+Food: Khichuri
+City: Chattogram
+Place: Mehedi Mess
+Type: restaurant
+Description: Beef khichuri with potato
+Rating: 4.5
+Tags: restaurant, rice, chattogram
+Cuisine: Rice
+Vendor: Patenga
+Budget: low
+Subdistrict: Patenga
+
+Food: Mitha Pitha
+City: Chattogram
+Place: Saltgura Pitha
+Type: dessert
+Description: Sweet rice cakes special to region
+Rating: 4.3
+Tags: dessert, dessert, chattogram
+Cuisine: Dessert
+Vendor: Khatungonj
+Budget: low
+Subdistrict: Khatungonj
+
+Food: Ranna Gurer Payesh
+City: Chattogram
+Place: Keating Bazar
+Type: dessert
+Description: Jaggery rice pudding
+Rating: 4.3
+Tags: dessert, dessert, chattogram
+Cuisine: Dessert
+Vendor: Keating Bazar
+Budget: low
+Subdistrict: Keating Bazar
+
+Food: Shutki Bhorta
+City: Chattogram
+Place: Fish Market
+Type: street food
+Description: Dried fish mash with chili
+Rating: 4.5
+Tags: street food, street, chattogram
+Cuisine: Street
+Vendor: Chattogram Fish Market
+Budget: low
+Subdistrict: Chattogram Fish Market
+
+Food: Choatpoti Sundae
+City: Chattogram
+Place: Mainamati Stall
+Type: street food
+Description: Local spicy masala chickpea bowl
+Rating: 4.5
+Tags: street food, snack, chattogram
+Cuisine: Snack
+Vendor: Mainamati
+Budget: low
+Subdistrict: Mainamati
+
+Food: Gorur Mangsho
+City: Chattogram
+Place: Hazi Shafi Biryani
+Type: restaurant
+Description: Beef curry with aromatic chili
+Rating: 4.5
+Tags: restaurant, meat, chattogram
+Cuisine: Meat
+Vendor: CDA Avenue
+Budget: mid
+Subdistrict: CDA Avenue
+
+Food: Shorshe Polao
+City: Chattogram
+Place: Bayezid Bazar
+Type: restaurant
+Description: Mustard chicken with polao
+Rating: 4.5
+Tags: restaurant, rice, chattogram
+Cuisine: Rice
+Vendor: Bayezid Bazar
+Budget: mid
+Subdistrict: Bayezid Bazar
+
+Food: Seven Layer Tea
+City: Sylhet
+Place: Sylhet Tea Street
+Type: beverage
+Description: Multilayered sweet tea
+Rating: 4.3
+Tags: beverage, drink, sylhet
+Cuisine: Drink
+Vendor: Sylhet City
+Budget: mid
+Subdistrict: Sylhet City
+
+Food: Shahi Jorda
+City: Sylhet
+Place: Sylheti Bake
+Type: dessert
+Description: Bread with butter sauce
+Rating: 4.3
+Tags: dessert, dessert, sylhet
+Cuisine: Dessert
+Vendor: Sylhet City
+Budget: low
+Subdistrict: Sylhet City
+
+Food: Doa Pitha
+City: Sylhet
+Place: Nishat Tea Stall
+Type: street food
+Description: Soft rice cake with palm jaggery
+Rating: 4.5
+Tags: street food, snack, sylhet
+Cuisine: Snack
+Vendor: Sylhet City
+Budget: low
+Subdistrict: Sylhet City
+
+Food: Lal Shak Bhorta
+City: Sylhet
+Place: Sylheti Veg
+Type: restaurant
+Description: Red spinach mash with spices
+Rating: 4.5
+Tags: restaurant, vegetarian, sylhet
+Cuisine: Vegetarian
+Vendor: Sylhet Sadar
+Budget: low
+Subdistrict: Sylhet Sadar
+
+Food: Shatkora Beef
+City: Sylhet
+Place: Butterfly Lounge
+Type: restaurant
+Description: Beef curry with shatkora citrus
+Rating: 4.5
+Tags: restaurant, meat, sylhet
+Cuisine: Meat
+Vendor: Bondor Bazar
+Budget: mid
+Subdistrict: Bondor Bazar
+
+Food: Sylhet Pitha
+City: Sylhet
+Place: Tea Stall
+Type: dessert
+Description: Assorted pithas, rice cakes
+Rating: 4.3
+Tags: dessert, dessert, sylhet
+Cuisine: Dessert
+Vendor: Bondor Bazar
+Budget: low
+Subdistrict: Bondor Bazar
+
+Food: Jorda
+City: Sylhet
+Place: Kazir Tea Stall
+Type: beverage
+Description: Milk tea and toasted bread
+Rating: 4.3
+Tags: beverage, drink, sylhet
+Cuisine: Drink
+Vendor: Sylhet City
+Budget: low
+Subdistrict: Sylhet City
+
+Food: Chua Pitha
+City: Sylhet
+Place: Kota Bari
+Type: street food
+Description: Molasses-filled rice cake
+Rating: 4.5
+Tags: street food, snack, sylhet
+Cuisine: Snack
+Vendor: Sylhet City
+Budget: low
+Subdistrict: Sylhet City
+
+Food: Bamboo Chicken
+City: Bandarban
+Place: Hilltop Bamboo Kitchen
+Type: specialty
+Description: Chicken cooked inside bamboo
+Rating: 4.3
+Tags: specialty, specialty, bandarban
+Cuisine: Specialty
+Vendor: Bandarban
+Budget: mid
+Subdistrict: Bandarban
+
+Food: Grilled Lobster
+City: Cox's Bazar
+Place: Beachfront Restaurant
+Type: restaurant
+Description: Fresh lobster grilled with herbs
+Rating: 4.5
+Tags: restaurant, seafood, cox's bazar
+Cuisine: Seafood
+Vendor: Laboni Beach
+Budget: high
+Subdistrict: Laboni Beach
+
+Food: Coral Fish Curry
+City: Cox's Bazar
+Place: Seafood Joint
+Type: restaurant
+Description: Local coral fish curry in spices
+Rating: 4.5
+Tags: restaurant, seafood, cox's bazar
+Cuisine: Seafood
+Vendor: Cox's Bazar
+Budget: mid
+Subdistrict: Cox's Bazar
+
+Food: Prawn Malaikari
+City: Cox's Bazar
+Place: Beachside Dhaba
+Type: seafood
+Description: Prawn in coconut gravy
+Rating: 4.5
+Tags: seafood, seafood, cox's bazar
+Cuisine: Seafood
+Vendor: Beach Road
+Budget: mid
+Subdistrict: Beach Road
+
+Food: Mixed Sea Fish Thali
+City: Cox's Bazar
+Place: Fish Market Food Court
+Type: restaurant
+Description: Assorted fish dishes meal
+Rating: 4.5
+Tags: restaurant, seafood, cox's bazar
+Cuisine: Seafood
+Vendor: Fish Market
+Budget: mid
+Subdistrict: Fish Market
+
+Food: Noon Masala Biryani
+City: Cox's Bazar
+Place: Sea Beach Hotel
+Type: restaurant
+Description: Spicy beef biryani
+Rating: 4.5
+Tags: restaurant, biryani, cox's bazar
+Cuisine: Biryani
+Vendor: Cox's Bazar
+Budget: mid
+Subdistrict: Cox's Bazar
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan
+
+Food: Kacchi Biryani (House Special)
+City: Dhaka
+Place: Old Dhaka Kacchi House House
+Type: restaurant
+Description: Mutton biryani with aromatic spices Special house version
+Rating: 4.5
+Tags: restaurant, biryani, dhaka
+Cuisine: Biryani
+Vendor: Old Dhaka
+Budget: mid
+Subdistrict: Gulshan

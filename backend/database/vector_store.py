@@ -59,4 +59,26 @@ def get_city_foods(city: str) -> List[Dict[str, str]]:
     return [item for item in _load_dataset("data/food_dataset.txt") if item.get('city', '').strip().lower() == city_lower]
 
 
+def get_city_restaurants(city: str) -> List[Dict[str, str]]:
+    """Return restaurant/street-food/specialty records for a city, excluding grocery-only entries."""
+    city_lower = city.strip().lower()
+    return [
+        item
+        for item in _load_dataset("data/food_dataset.txt")
+        if item.get('city', '').strip().lower() == city_lower
+        and item.get('type', '').strip().lower() not in ['grocery', 'market', 'supermarket', 'ingredients']
+    ]
+
+
+def get_city_groceries(city: str) -> List[Dict[str, str]]:
+    """Return grocery/ingredient records for a given city."""
+    city_lower = city.strip().lower()
+    return [
+        item
+        for item in _load_dataset("data/food_dataset.txt")
+        if item.get('city', '').strip().lower() == city_lower
+        and item.get('type', '').strip().lower() in ['grocery', 'market', 'supermarket', 'ingredients']
+    ]
+
+
 vector_db = create_vector_store()
